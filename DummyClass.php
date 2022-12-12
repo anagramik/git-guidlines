@@ -2,6 +2,13 @@
 
 class DummyClass {
 
+    private $data;
+
+    public function getData()
+    {
+        return $this->data;
+    }
+
     public function testA()
     {
         $b = $this->testB();
