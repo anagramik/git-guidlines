@@ -21,17 +21,4 @@ class DummyClass {
             'data' => $this->getData()
         ];
     }
-
-    protected function testB()
-    {
-        // some crazy database calculation
-        return 10;
-    }
-
-
-    protected function testC()
-    {
-        // some crazy database calculation
-        return 10;
-    }
 }
