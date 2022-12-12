@@ -17,6 +17,13 @@ class DummyClass {
         return $b + $c;
     }
 
+    public function toArray()
+    {
+        return [
+            'data' => $this->getData()
+        ];
+    }
+
     protected function testB()
     {
         // some crazy database calculation
