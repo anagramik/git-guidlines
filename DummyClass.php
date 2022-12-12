@@ -11,10 +11,8 @@ class DummyClass {
 
     public function testA()
     {
-        $b = $this->testB();
-        $c = $this->testC();
-
-        return $b + $c;
+        // db aggregation
+        return 100;
     }
 
     public function toArray()
