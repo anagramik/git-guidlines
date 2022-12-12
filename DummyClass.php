@@ -15,10 +15,10 @@ class DummyClass {
         return 100;
     }
 
-    public function toArray()
-    {
-        return [
-            'data' => $this->getData()
-        ];
-    }
+    //public function toArray()
+    //{
+    //    return [
+    //        'data' => $this->getData()
+    //    ];
+    //}
 }
